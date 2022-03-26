@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Online Appointment System for Veterinary Services</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="CSS/appointment-confirmation.css">
+    <link rel="icon" type="image/x-icon" href="/WEBSITE ELEMENTS/brand-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--NAVIGATION BAR-->
+    <nav class="navigation-bar">
+        <div class="logo-container">
+            <div>
+                <a href="Homepage.html"><img src="/WEBSITE ELEMENTS/brand-logo.png"></a>
+            </div>
+            <div class="nav-title-page">
+                <p>Online Veterinary Appointment System</p>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-button-container">
+        <a href="javascript:javascript:history.go(-1)"><i class="fa fa-chevron-left" 
+            style="font-size: 50px; color: #1697b7; cursor: pointer; padding: 30px 20px 10px;"></i></a>
+
+        <a href="Services.html"><i class="fa fa-remove"
+            style="float: right; font-size: 50px;  color: #1697b7; cursor: pointer; padding: 30px 20px 10px;"></i></a>
+    </div>
+
+<!--BODY-->
+<h1 class="check-text">Check Your Data</h1>
+<h4 class="check-message-text">Double-check all the details before submitting. Once submitted, all the data input cannot be changed or edited.</h4>
+
+<div class="confirmation-col">
+
+    <div class="first-col">
+
+    <!--NAME-->
+    <h1 class="label-text">Name</h1>
+        <input type="text" id="pet-output" name="pet-name">
+
+      <!--TYPE-->
+    <h1 class="label-text">Type</h1>
+      <input type="text" id="pet-output" name="pet-type">
+
+    <!--BREED-->
+    <h1 class="label-text">Breed</h1>
+      <input type="text" id="pet-output" name="pet-breed">
+
+</div>
+
+<div class="second-col">
+
+    <!--DATE OF VISIT-->
+    <h1 class="label-text">Date of visit</h1>
+      <input type="text" id="pet-output" name="pet-date">
+
+    <!--REASON-->
+    <h1 class="label-text">Reason</h1>
+      <input type="text" id="pet-output" name="pet-reason">
+
+    <!--DETAILED REASON INFORMATION-->
+    <h1 class="label-text">Detailed reason info</h1>
+      <textarea type="text" id="pet-detailed-reason" name="pet-detailed-reason"></textarea>
+
+    </div>
+</div>
+
+<!--NEXT BUTTON-->
+    
+<a href=""><button class="button submit-btn">Submit</button></a>
+</body>
+</html>
