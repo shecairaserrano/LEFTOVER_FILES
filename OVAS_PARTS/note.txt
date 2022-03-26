@@ -1,0 +1,5 @@
+1. Yung feature po sa client dashboard na (can edit, add, delete booking) tatangalin napo 
+yun papalitan nalang po ng button na "queue status" button sa homepage ng client side.
+
+2. Yung display po ng info ng client after niya mainput yung booking details palitan po
+ ng bagong design na nilagay namin ngayon na file po.
